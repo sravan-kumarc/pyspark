@@ -2,7 +2,7 @@
 📅 Duration: ~5 Weeks (35 Days)
 Goal: Master PySpark for real-world data processing, ETL, big data analytics, and integration with tools like Hive, SQL, and AWS.
 
-🔹 Phase 1: PySpark Fundamentals (Days 1–5)
+%%🔹 Phase 1: PySpark Fundamentals (Days 1–5)
 ✅ Day 1: Introduction to Big Data & Spark
 What is Big Data?
 
@@ -74,7 +74,7 @@ Practice:
 
 Read/write dataset in all formats
 
-🔹 Phase 2: Intermediate PySpark (Days 6–15)
+%%🔹 Phase 2: Intermediate PySpark (Days 6–15)
 ✅ Day 6: Data Cleaning & Transformation
 String operations
 
@@ -148,7 +148,7 @@ Practice:
 
 Chain multiple functions for data cleaning and logic
 
-🔹 Phase 3: Advanced PySpark (Days 16–30)
+%%🔹 Phase 3: Advanced PySpark (Days 16–30)
 ✅ Day 16–17: PySpark MLlib (Machine Learning)
 MLlib Pipeline API
 
@@ -210,7 +210,7 @@ Read/write from Hive tables
 
 S3 integration using spark.read() / spark.write()
 
-🔹 Phase 4: Projects & Use Cases (Days 31–35)
+%%🔹 Phase 4: Projects & Use Cases (Days 31–35)
 ✅ Day 31–32: ETL Project 1
 Read messy sales data from S3 or local
 
