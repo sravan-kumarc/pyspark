@@ -1,234 +1,159 @@
 🔥 PySpark Structured Learning Plan (Beginner to Advanced)
 📅 Duration: ~5 Weeks (35 Days)
 Goal: Master PySpark for real-world data processing, ETL, big data analytics, and integration with tools like Hive, SQL, and AWS.
-
->>🔹 Phase 1: PySpark Fundamentals (Days 1–5)
+________________________________________
+🔹 Phase 1: PySpark Fundamentals (Days 1–5)
 ✅ Day 1: Introduction to Big Data & Spark
-What is Big Data?
-What is Apache Spark?
-PySpark vs Pandas
-
-PySpark Architecture: Driver, Executor, Cluster Manager
-
-Install Spark on Local or use Databricks
-
-Setup Jupyter/VS Code or Databricks Notebook
-
+•	What is Big Data?
+•	What is Apache Spark?
+•	PySpark vs Pandas
+•	PySpark Architecture: Driver, Executor, Cluster Manager
+•	Install Spark on Local or use Databricks
+•	Setup Jupyter/VS Code or Databricks Notebook
 Practice:
-
-Install PySpark via pip or use on Databricks
-
-Run your first spark.version script
-
+•	Install PySpark via pip or use on Databricks
+•	Run your first spark.version script
+________________________________________
 ✅ Day 2: Core PySpark Components
-SparkContext
-
-SparkSession
-
-RDD (Resilient Distributed Datasets) – Intro
-
-DataFrame – Basic Operations
-
+•	SparkContext
+•	SparkSession
+•	RDD (Resilient Distributed Datasets) – Intro
+•	DataFrame – Basic Operations
 Practice:
-
-Create RDD and DataFrames manually
-
-Load JSON/CSV into DataFrame
-
+•	Create RDD and DataFrames manually
+•	Load JSON/CSV into DataFrame
+________________________________________
 ✅ Day 3: DataFrame Operations
-Selecting Columns, Filtering Rows
-
-withColumn(), drop(), distinct(), sort()
-
-Handling nulls (dropna, fillna)
-
-Basic Aggregations (count, sum, avg, groupBy)
-
+•	Selecting Columns, Filtering Rows
+•	withColumn(), drop(), distinct(), sort()
+•	Handling nulls (dropna, fillna)
+•	Basic Aggregations (count, sum, avg, groupBy)
 Practice:
-
-Load CSV and apply all above operations
-
+•	Load CSV and apply all above operations
+________________________________________
 ✅ Day 4: Data Types and Schemas
-Data Types in PySpark
-
-Infer vs Define Schema
-
-Changing Column Types
-
+•	Data Types in PySpark
+•	Infer vs Define Schema
+•	Changing Column Types
 Practice:
-
-Load data with manual schema
-
-Apply type conversions and validate
-
+•	Load data with manual schema
+•	Apply type conversions and validate
+________________________________________
 ✅ Day 5: Reading & Writing Data
-File formats: CSV, JSON, Parquet, ORC
-
-read() and write() methods
-
-SaveModes: overwrite, append, errorIfExists
-
+•	File formats: CSV, JSON, Parquet, ORC
+•	read() and write() methods
+•	SaveModes: overwrite, append, errorIfExists
 Practice:
-
-Read/write dataset in all formats
-
-%%🔹 Phase 2: Intermediate PySpark (Days 6–15)
+•	Read/write dataset in all formats
+________________________________________
+🔹 Phase 2: Intermediate PySpark (Days 6–15)
 ✅ Day 6: Data Cleaning & Transformation
-String operations
-
-Date/time parsing
-
-UDF (User-Defined Functions)
-
+•	String operations
+•	Date/time parsing
+•	UDF (User-Defined Functions)
 Practice:
-
-Clean a messy dataset using UDFs
-
+•	Clean a messy dataset using UDFs
+________________________________________
 ✅ Day 7: PySpark SQL
-Create Temp Views
-
-Write SQL queries on DataFrames
-
-Register UDFs in SQL
-
+•	Create Temp Views
+•	Write SQL queries on DataFrames
+•	Register UDFs in SQL
 Practice:
-
-Query a DataFrame using SQL
-
+•	Query a DataFrame using SQL
+________________________________________
 ✅ Day 8: RDD Deep Dive
-Create and Transform RDDs
-
-Actions vs Transformations
-
-map(), flatMap(), filter(), reduce()
-
+•	Create and Transform RDDs
+•	Actions vs Transformations
+•	map(), flatMap(), filter(), reduce()
 Practice:
-
-WordCount using RDD
-
+•	WordCount using RDD
+________________________________________
 ✅ Day 9–10: Joins in PySpark
-Inner, Left, Right, Full, Cross Join
-
-Join on multiple columns
-
-Handling nulls and duplicate keys
-
+•	Inner, Left, Right, Full, Cross Join
+•	Join on multiple columns
+•	Handling nulls and duplicate keys
 Practice:
-
-Join 2 CSV datasets with different join types
-
+•	Join 2 CSV datasets with different join types
+________________________________________
 ✅ Day 11–12: Window Functions
-PartitionBy, OrderBy
-
-Ranking, Lag/Lead, Cumulative Sums
-
+•	PartitionBy, OrderBy
+•	Ranking, Lag/Lead, Cumulative Sums
 Practice:
-
-Use window functions on a sales dataset
-
+•	Use window functions on a sales dataset
+________________________________________
 ✅ Day 13: Grouping & Aggregation
-groupBy vs rollup vs cube
-
-Pivot tables
-
-agg(), collect_list(), collect_set()
-
+•	groupBy vs rollup vs cube
+•	Pivot tables
+•	agg(), collect_list(), collect_set()
 Practice:
-
-Aggregation with pivot and rollup
-
+•	Aggregation with pivot and rollup
+________________________________________
 ✅ Day 14–15: Functions Library
-pyspark.sql.functions overview
-
-Built-in functions: col(), lit(), when(), expr()
-
+•	pyspark.sql.functions overview
+•	Built-in functions: col(), lit(), when(), expr()
 Practice:
-
-Chain multiple functions for data cleaning and logic
-
-%%🔹 Phase 3: Advanced PySpark (Days 16–30)
+•	Chain multiple functions for data cleaning and logic
+________________________________________
+🔹 Phase 3: Advanced PySpark (Days 16–30)
 ✅ Day 16–17: PySpark MLlib (Machine Learning)
-MLlib Pipeline API
-
-Feature engineering: Tokenizer, VectorAssembler
-
-Train a classification model (e.g., Logistic Regression)
-
+•	MLlib Pipeline API
+•	Feature engineering: Tokenizer, VectorAssembler
+•	Train a classification model (e.g., Logistic Regression)
 Practice:
-
-Load Titanic dataset and train a model
-
+•	Load Titanic dataset and train a model
+________________________________________
 ✅ Day 18–19: PySpark GraphFrames (Optional Advanced)
-Introduction to GraphFrames
-
-Create graphs
-
-PageRank, Breadth-First Search
-
+•	Introduction to GraphFrames
+•	Create graphs
+•	PageRank, Breadth-First Search
+________________________________________
 ✅ Day 20–21: PySpark Streaming (Structured Streaming)
-Streaming Concepts
-
-Read stream from Kafka/Socket
-
-Windowed aggregations
-
+•	Streaming Concepts
+•	Read stream from Kafka/Socket
+•	Windowed aggregations
 Practice:
-
-Simulate streaming from socket or file source
-
+•	Simulate streaming from socket or file source
+________________________________________
 ✅ Day 22–23: Partitioning and Performance
-Partitioning Concepts
-
-Repartition vs Coalesce
-
-Caching and Persisting
-
+•	Partitioning Concepts
+•	Repartition vs Coalesce
+•	Caching and Persisting
 Practice:
-
-Analyze performance with cache and repartition
-
+•	Analyze performance with cache and repartition
+________________________________________
 ✅ Day 24–25: Broadcasting and Joins Optimization
-Broadcast variables
-
-Skewed joins
-
-Optimizing performance in joins
-
+•	Broadcast variables
+•	Skewed joins
+•	Optimizing performance in joins
+________________________________________
 ✅ Day 26–27: Error Handling and Debugging
-Try/Except in UDFs
-
-Logging
-
-Reading error messages
-
+•	Try/Except in UDFs
+•	Logging
+•	Reading error messages
+________________________________________
 ✅ Day 28–30: Integration with Hive, SQL, and AWS
-HiveContext, Enable Hive Support
-
-Read/write from Hive tables
-
-S3 integration using spark.read() / spark.write()
-
-%%🔹 Phase 4: Projects & Use Cases (Days 31–35)
+•	HiveContext, Enable Hive Support
+•	Read/write from Hive tables
+•	S3 integration using spark.read() / spark.write()
+________________________________________
+🔹 Phase 4: Projects & Use Cases (Days 31–35)
 ✅ Day 31–32: ETL Project 1
-Read messy sales data from S3 or local
-
-Clean, transform, and write output to Parquet
-
-Include UDF, Aggregation, and Window functions
-
+•	Read messy sales data from S3 or local
+•	Clean, transform, and write output to Parquet
+•	Include UDF, Aggregation, and Window functions
+________________________________________
 ✅ Day 33–34: ML Project 2
-Customer churn prediction
-
-Feature engineering, training, model evaluation
-
+•	Customer churn prediction
+•	Feature engineering, training, model evaluation
+________________________________________
 ✅ Day 35: Final Project or Certification Practice
-End-to-end project using Databricks or AWS EMR
-
-Optional: Prepare for Databricks Certified Associate Developer for Apache Spark
-
+•	End-to-end project using Databricks or AWS EMR
+•	Optional: Prepare for Databricks Certified Associate Developer for Apache Spark
+________________________________________
 🧠 How to Track Learning:
 Day	Topic	Done (✔/❌)	Notes
 1	Big Data + Spark Intro		
 2	SparkContext/SparkSession		
 …	…		
 35	Final Project		
+
